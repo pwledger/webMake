@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+     table,th,td
+      {
+        border:1px solid black;
+        border-collapse:collapse;
+        }
+      th
+      {
+        background-color:pink;
+      }
+    </style>
+</head>
+<body>
+
+<h1> 큰 글자 나타 낼 때</h1>  <!-- 주석 설명 다는 곳 -->
+<p> 단락 글자</p>
+<hr>
+<pre>
+    내가 뛰어 쓰는
+    만큰 줄이
+    나누어 집니다
+</pre>
+
+<a href="https://naver.com" target="_self" > 네이버 사이트 이동 </a>
+<br>
+<a href="https://naver.com" target="_blank" > 다른 창에서 네이버 사이트 이동 </a>
+
+<p> 이미지 넣는 방법 </p>
+
+<img src="./image/download.jpg" alt="공룡 사진" width="10%" height="10%">
+
+<p> 영상 넣는 방법 </p>
+
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/lAeLg0wP8bA?si=EudXRIi7JucKriYK"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+</iframe>
+
+<p> 표 넣는 방법</p>
+<table>
+    <thead>
+        <tr>
+            <th>이름</th>
+            <th>전화번호</th>
+            <th>성별</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>홍길동</td>
+            <td>010-1234-5678</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>이순신</td>
+            <td>010-2323-5674</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>김수민</td>
+            <td>010-6887-6838</td>
+            <td>남</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p> 목록 만드는 방법 </p>
+
+<ul style="list-style-type:circle" >
+    <li>항목 1</li>
+    <li>항목 2</li>
+    <li>항목 3</li>
+</ul>
+
+<ol>
+   <li>HTML5</li>
+   <li>CSS3</li>
+   <li>Java Script</li>
+</ol>
+
+
+</body>
+</html>
